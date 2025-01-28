@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: url(10392077.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(5px);
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fa-solid.fa-star{
+    display: block;
+}
+.nav{
+    margin-bottom: auto;
+}
+.nav_list{
+    margin: 0 1em;
+    padding: 0.5em;
+    list-style: none;
+    display: flex;
+}
+.nav-list{
+    color: #000;
+    text-decoration: none;
+    margin: 0 1em;
+    padding: 0.5em;
+    justify-content: center;
+}
+.shop-now_btn{
+    display: flex;
+    margin-left: auto;
+}
+.shop-now_btn{
+    background: #000;
+    color: #fff;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+section{
+    background-color:#ecc6b1;
+    align-self: center;
+    border-radius: 10px;
+    margin: 5em 1em;
+    padding: 2em;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-top: 0;
+    margin-bottom: 0.3em;
+    color: #000;
+    font-weight: 100;
+    font-family: "Agbalumo";
+}
+.container{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.col {
+    width: 100%;
+}
+.col + .col {
+    margin-left: 30px;
+}
+.hero {
+    padding: 100px 0;
+}
+.hero__text {
+    width: 50%;
+}
+.hero__img {
+    width: 50%;
+    align-self: flex-start;
+}
+.hero p {
+    margin-bottom: 2em;
+    color: #000;
+    font-size: 2rem;
+    font-family: "Roboto" sans-serif;
+}
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffff;
+    font-weight: 900;
+    background-color: #000;
+    padding: 0.95em 2em;
+    border-radius: 10px;
+}
+.view-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    font-weight: 900;
+    padding: 0.95em 1em;
+
+}
+.fa-solid.fa-arrow-right-long{
+    padding: 0.5em;
+}
+.color-palette{
+    background-color: #000;
+    justify-content: space-between;
+    margin: -2em;
+}
+.end{
+    padding: 2em;
+}
+.container{
+    display: flex;
+    margin: 0;
+    color: #fff;
+    align-items: center;
+    gap: 10px;
+   
+}
+.end-col{
+    display: flex;
+    padding: o.5em 0;
+    gap: 50px;
+}
+.color{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.row{
+    display: inline-block;
+    flex-wrap: wrap;
+}
+
+
+
+@media (min-width: 800px;) {
+    .explore{
+        margin: 0;
+    }
+}
+    
+
